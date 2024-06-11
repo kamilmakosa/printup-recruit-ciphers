@@ -12,5 +12,9 @@ zakres szyfrowanych znaków: `/[a-z]/i`
 - jakość przedstawionego kodu
 - obecność/jakość przedstawionych testów
 
-# ROZWIĄZANIE #
-Link do repozytorium GIT z gotowym rozwiązaniem należy podać w formularzu https://goo.gl/forms/FT9qynVoBKiFKrvQ2
+# TESTOWANIE #
+```
+php test.php
+```
+
+Testy online: https://onlinephp.io/c/05ff5
