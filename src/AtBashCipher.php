@@ -47,6 +47,6 @@ class AtBashCipher extends BaseSubstitutionCipher
     {
         $text = strtoupper(preg_replace('/[^A-Za-z]/', '', $text));
 
-        return $this->substitute($text, array_flip($this->lookupTable));
+        return $this->substitute($text, $this->lookupTable);
     }
 }
